@@ -25,6 +25,8 @@ theme:
 nav:
   - Home: index.md
   - PowerShell:
-      - Generic Scripts: powershell/generic-scripts/index.md
+      - Generic Scripts:
+          - Overview: powershell/generic-scripts/index.md
+          - Fetch Installed Applications: powershell/generic-scripts/fetch-installed-applications.md
   - PSADT:
       - 4.17: psadt/4.17/index.md
