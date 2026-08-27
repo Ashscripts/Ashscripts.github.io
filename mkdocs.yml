@@ -1,0 +1,6 @@
+site_name: Ashscripts
+site_url: https://ashscripts.github.io/
+repo_url: https://github.com/Ashscripts/Ashscripts.github.io
+
+theme:
+  name: material
