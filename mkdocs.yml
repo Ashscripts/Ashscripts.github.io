@@ -28,5 +28,6 @@ nav:
       - Generic Scripts:
           - Overview: powershell/generic-scripts/index.md
           - Fetch Installed Applications: powershell/generic-scripts/fetch-installed-applications.md
+          - Add multiple users to sccm collection: powershell/generic-scripts/add-users-to-sccm-collection.md
   - PSADT:
       - 4.17: psadt/4.17/index.md
