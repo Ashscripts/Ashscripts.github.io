@@ -4,6 +4,12 @@ repo_url: https://github.com/Ashscripts/Ashscripts.github.io
 
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.suggest
+    - search.highlight
 
 nav:
   - Home: index.md
