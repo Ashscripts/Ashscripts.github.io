@@ -4,3 +4,10 @@ repo_url: https://github.com/Ashscripts/Ashscripts.github.io
 
 theme:
   name: material
+
+nav:
+  - Home: index.md
+  - PowerShell:
+      - Generic Scripts: powershell/generic-scripts/index.md
+  - PSADT:
+      - 4.17: psadt/4.17/index.md

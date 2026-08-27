@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Ashscripts
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Technical documentation, PowerShell scripts, and application deployment resources.
 
-## Commands
+This site contains reusable scripts, deployment examples, and technical notes for Windows administration and application management.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Documentation
 
-## Project layout
+### PowerShell
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Generic PowerShell scripts and utilities for common Windows administration and automation tasks.
+
+### PSADT
+
+PowerShell App Deployment Toolkit documentation and scripts, including resources for **PSADT 4.17**.
+
+## About this site
+
+This documentation is maintained as a GitHub repository and built with MkDocs and Material for MkDocs.
+
+Source repository:
+
+https://github.com/Ashscripts/Ashscripts.github.io
