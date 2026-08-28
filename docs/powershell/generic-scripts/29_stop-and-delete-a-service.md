@@ -1,0 +1,8 @@
+# Stop and delete a service:
+
+> Source lines: 515–522
+
+```powershell
+Start-Process -FilePath "sc.exe" -ArgumentList "stop `"S7TraceServiceX`"" -Wait -PassThru -WindowStyle hidden -ErrorAction SilentlyContinue
+Start-Process -FilePath "sc.exe" -ArgumentList "delete `"S7TraceServiceX`"" -Wait -PassThru -WindowStyle hidden -ErrorAction SilentlyContinue
+```

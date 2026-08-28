@@ -1,0 +1,6 @@
+# Batch script reference for deleting value:
+
+```bat
+reg delete "HKCR\Installer\Products\025805D706D88504B9227DC2ACE74431\SourceList\Net" /v "2" /f
+reg delete "HKCR\Installer\Products\025805D706D88504B9227DC2ACE74431\SourceList\Net" /v "2" /f
+```

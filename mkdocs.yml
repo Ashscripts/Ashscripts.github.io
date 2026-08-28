@@ -24,10 +24,104 @@ theme:
 
 nav:
   - Home: index.md
+
   - PowerShell:
       - Generic Scripts:
           - Overview: powershell/generic-scripts/index.md
-          - Fetch Installed Applications: powershell/generic-scripts/fetch-installed-applications.md
-          - Add multiple users to sccm collection: powershell/generic-scripts/add-users-to-sccm-collection.md
+          - Check if Registry Key Exists: powershell/generic-scripts/01_check-if-registry-key-exists.md
+          - Allow Remote Desktop Connection (RDP) via Registry: powershell/generic-scripts/02_allow-remote-desktop-connection-rdp-via-registry.md
+          - Winget Install, Uninstall and Detection Method: powershell/generic-scripts/03_winget-install-uninstall-and-detection-method.md
+          - Import Registry for All Existing User Profiles Without Logoff: powershell/generic-scripts/04_import-registry-for-all-existing-users-profiles-without-logoff.md
+          - Check for Pending Reboot: powershell/generic-scripts/05_check-for-pending-reboot.md
+          - Suppress Pending Soft Reboot: powershell/generic-scripts/06_suppress-pending-soft-reboot-by-deleting-the-pendingfilerenameoperations-reg-data.md
+          - Delete Registry Key Forcefully with Subkeys: powershell/generic-scripts/07_delete-registry-key-forcefully-with-subkeys.md
+          - Delete Registry Value: powershell/generic-scripts/08_delete-registry-value.md
+          - Batch Script Reference for Deleting Value: powershell/generic-scripts/09_batch-script-reference-for-deleting-value.md
+          - Delete Registry Keys Using Matching String: powershell/generic-scripts/10_delete-registry-keys-using-matching-string.md
+          - Check Registry Data Value: powershell/generic-scripts/11_check-registry-data-value.md
+          - Export Bulk Registry Keys into a Single REG File: powershell/generic-scripts/12_export-bulk-registry-keys-into-a-single-reg-file.md
+          - Creating a Registry Key: powershell/generic-scripts/13_creating-a-registry-key.md
+          - Importing the Registry Key: powershell/generic-scripts/14_importing-the-registry-key.md
+          - Check if Registry Key Exists (Alternative): powershell/generic-scripts/15_check-if-registry-key-exist.md
+          - Create Folder if Not Exists: powershell/generic-scripts/16_create-folder-if-not-exists.md
+          - Copying Folder Using XCOPY: powershell/generic-scripts/17_copying-folder-using-xcopy.md
+          - Copy File Using XCOPY: powershell/generic-scripts/18_copy-file-using-xcopy.md
+          - Replacing a String in a File: powershell/generic-scripts/19_replacing-a-string-in-a-file.md
+          - Replacing a String in an XML File: powershell/generic-scripts/20_replacing-a-string-in-an-xml-file.md
+          - Check Folder Size: powershell/generic-scripts/21_check-folder-size.md
+          - Check for a File Version: powershell/generic-scripts/22_check-for-a-file-version.md
+          - Read a Text File Until String Is Found: powershell/generic-scripts/23_read-a-text-file-until-string-within-it-is-found.md
+          - If Folder Empty Then Delete: powershell/generic-scripts/24_if-folder-empty-then-delete.md
+          - Delete Folder from All Existing User Profiles: powershell/generic-scripts/25_delete-folder-from-all-existing-users-profile.md
+          - Delete Registry Keys from All Existing User Profiles: powershell/generic-scripts/26_delete-registry-keys-from-all-existing-users-profle.md
+          - Start or Execute a Process Using Start-Process: powershell/generic-scripts/27_start-or-execute-a-process-using-start-process.md
+          - Fetch Add/Remove Programs (ARP) Entries: powershell/generic-scripts/28_fetch-add-and-remove-programs-arp-entries-with-powershell.md
+          - Stop and Delete a Service: powershell/generic-scripts/29_stop-and-delete-a-service.md
+          - Office Installation Check: powershell/generic-scripts/30_office-installation-check-while-troubleshooting.md
+          - Check Free Disk Space: powershell/generic-scripts/31_check-if-free-disk-space.md
+          - SCCM Policies Rerun: powershell/generic-scripts/32_sccm-policies-rerun.md
+          - Unpin Shortcut from Taskbar: powershell/generic-scripts/33_unpin-shortcut-from-taskbar.md
+          - SCCM Client Removal Script: powershell/generic-scripts/34_sccm-client-removal-script.md
+          - SCCM Client Repair: powershell/generic-scripts/35_sccm-client-repair.md
+          - Permission to Folder: powershell/generic-scripts/36_permission-to-folder.md
+          - SCCM Application Properties Locked - Fix: powershell/generic-scripts/37_sccm-application-in-sccm-console-properties-locked-fix.md
+          - Company Portal Repair and Fix: powershell/generic-scripts/38_company-portal-repair-and-fix.md
+          - DPInst Operations: powershell/generic-scripts/39_dpinst-operations.md
+          - DLL Register or De-Register: powershell/generic-scripts/40_dll-register-or-de-register.md
+          - PowerShell Paths: powershell/generic-scripts/41_powershell-paths.md
+          - HTA Window Reference: powershell/generic-scripts/42_hta-window-reference.md
+          - Unblock File - Defender SmartScreen: powershell/generic-scripts/43_unblock-file-windows-defender-smart-screen-prevented-an-unrecognized-app-fixed.md
+          - WMIC Command: powershell/generic-scripts/44_wmic-command.md
+          - Check .NET Framework and Uninstallation: powershell/generic-scripts/45_check-if-net-framework-is-enabled-and-uninstallation.md
+          - Batch Script to Remove All Users Data: powershell/generic-scripts/46_batch-script-to-remove-all-users-data.md
+          - Eventlog Fetch: powershell/generic-scripts/47_eventlog-fetch.md
+          - Update Distribution Points: powershell/generic-scripts/48_update-distribution-points.md
+          - Company Portal Enrollment Issue Fix: powershell/generic-scripts/49_company-portal-enrollment-issue-fix.md
+          - SCCM Download Stuck at 0%: powershell/generic-scripts/50_sccm-download-stuck-at-0.md
+          - Copy File to All Existing User Profiles: powershell/generic-scripts/51_copy-file-to-all-existing-user-profiles.md
+          - Zip and Unzip Files: powershell/generic-scripts/52_zip-and-unzip-files.md
+          - Deleting Registries and Uninstalling App: powershell/generic-scripts/53_deleting-registries-and-uninstalling-app.md
+          - ACT Compatibility Fix / Shims: powershell/generic-scripts/54_act-compatibility-fix-shims.md
+          - Fetch Running Tasks in Task Manager with Command Line: powershell/generic-scripts/55_fetch-running-tasks-in-taskmanager-with-command-line.md
+          - Process Using More Than 100 MB RAM: powershell/generic-scripts/56_process-using-more-than-100-mb-ram-usage.md
+          - Monitor Background Running Process: powershell/generic-scripts/57_monitor-background-running-process-that-s-difficult-to-catch-background-running-setup-moni.md
+          - Get SCCM Application Deployment ID: powershell/generic-scripts/58_get-the-sccm-application-deployment-id.md
+          - Adding Devices to SCCM Collection: powershell/generic-scripts/59_adding-devices-to-sccm-collection.md
+          - Check Application Deployment Collections: powershell/generic-scripts/60_check-application-is-deployed-to-what-collections.md
+          - Check Dependent Applications in SCCM: powershell/generic-scripts/61_check-dependent-applications-in-sccm.md
+          - SCCM Distribution Point Removal: powershell/generic-scripts/62_sccm-distribution-point-removal.md
+          - Add Users to User Collection in SCCM: powershell/generic-scripts/63_add-users-to-user-collection-in-sccm.md
+          - Add Users to User Collection Using TXT File: powershell/generic-scripts/64_add-users-to-user-collection-using-txt-file.md
+          - Application Details and Software Center Description: powershell/generic-scripts/65_script-to-get-displayname-version-manufacturer-owner-details-and-software-center-descripti.md
+          - Package Visual Studio Professional: powershell/generic-scripts/66_how-to-package-visual-studio-professional-application.md
+          - Package SQL Server: powershell/generic-scripts/67_how-to-package-sql-server-application.md
+          - Fetch Specific Application in Software Center: powershell/generic-scripts/68_fetch-specific-application-in-software-center.md
+          - SCCM Query Collection for Installed Application: powershell/generic-scripts/69_sccm-query-collection-to-fetch-the-devices-that-has-specific-application-installed-fetch-u.md
+          - CCMCache Cleanup Script: powershell/generic-scripts/70_ccmcache-cleanup-script.md
+          - Firewall Operations Script: powershell/generic-scripts/Firewall_operations.md
+
   - PSADT:
-      - 4.17: psadt/4.17/index.md
+      - 4.17:
+          - Overview: psadt/4.17/index.md
+          - Manual ActiveSetup Reference: psadt/4.17/01_psadt-4-17-manual-activesetup-reference.md
+          - Delete Registry Key with Subkeys: psadt/4.17/02_delete-registry-key-with-subkeys-psadt-4-17.md
+          - Creating Registry Key: psadt/4.17/03_creating-registry-key.md
+          - Common PSADT 4.17 Variables: psadt/4.17/04_psadt-4-17-variables-most-common.md
+          - Copy File: psadt/4.17/05_copy-file-psadt-4-17.md
+          - Copy Folders and Subfolders: psadt/4.17/06_copy-folders-and-sub-folders-using-psadt-4-17.md
+          - Copy File to All User Profiles: psadt/4.17/07_copy-file-to-all-users-profile-using-psadt-4-17.md
+          - Copy Multiple Files to All User Profiles: psadt/4.17/08_copying-multiple-file-to-all-users-profile-using-psadt-4-17.md
+          - Execute a Process: psadt/4.17/09_executing-a-process-with-psadt-4-17.md
+          - MSI Operations: psadt/4.17/10_msi-operations-with-psadt-4-17.md
+          - Installation Prompts: psadt/4.17/11_installation-prompts-using-psadt-4-17.md
+          - Prompt Before Installation: psadt/4.17/12_prompt-the-user-if-they-want-to-proceed-with-installation.md
+          - Check Disk Space: psadt/4.17/13_check-the-disk-space.md
+
+  - VBScript:
+      - Scripts:
+          - Overview: vbscript/index.md
+          - Registry Existence Monitor and Delete: vbscript/01_vbscript-to-search-for-a-registry-existence-for-every-1-sec-and-delete-as-soon-as-found.md
+          - Wait for Folder/File at Runtime: vbscript/02_wait-until-the-folder-is-found-or-created-at-runtime-vbscript.md
+          - VBScript Reference: vbscript/03_vbscript-reference.md
+          - Source Resiliency Fix: vbscript/04_source-resiliency-fix.md
+          - AutoIT VBScript: vbscript/05_autoit-vbscript.md

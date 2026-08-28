@@ -31,8 +31,6 @@ $apps |
     Sort-Object DisplayName
 ```
 
-The code block above will have a **Copy** button because `content.code.copy` is enabled in the Material theme.
-
 ## How It Works
 
 ### 1. Read Installed Application Information

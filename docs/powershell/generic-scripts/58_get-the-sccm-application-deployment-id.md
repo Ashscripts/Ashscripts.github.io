@@ -1,0 +1,5 @@
+# Get the sccm application deployment id
+
+```powershell
+Get-CMDeploymentType -ApplicationName "DWGTrueView_2023_x64_ENG_001" | Select LocalizedDisplayName, CI_UniqueID
+```
