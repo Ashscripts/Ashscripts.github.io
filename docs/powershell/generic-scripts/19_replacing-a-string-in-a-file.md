@@ -1,7 +1,7 @@
 # Replacing a string in a file:
 
 ```powershell
-$XmlPath = "C:\Users\shaicln1\AppData\Roaming\PhraseExpress\config.xml"
+$XmlPath = "C:\Users\<username>\AppData\Roaming\PhraseExpress\config.xml"
 $Placeholder = "USERNAME_C"
 $CurrentUser = $env:USERNAME
 $content = Get-Content -Path $XmlPath -Raw -Encoding UTF8 -ErrorAction SilentlyContinue
