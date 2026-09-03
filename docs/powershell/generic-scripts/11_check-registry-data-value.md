@@ -1,4 +1,4 @@
-# Check Registry Data Value:
+# Check Registry Data Value | Check DisplayVersion in Uninstall Hive:
 
 ```powershell
 $regPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{A3B2FFEE-2245-47AB-967C-DB473C4DE3D1}"
