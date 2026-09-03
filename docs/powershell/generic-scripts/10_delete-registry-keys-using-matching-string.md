@@ -1,8 +1,8 @@
 # Delete registry keys using matching string:
 
 ```powershell
-$regparent3  = "HKLM:\Software\Sulzer\Packages"
-$regparent_3 = "HKLM\Software\Sulzer\Packages"
+$regparent3  = "HKLM:\Software\Company\Packages"
+$regparent_3 = "HKLM\Software\Company\Packages"
 # Regex pattern covers multiple prefixes
 $pattern = "^(ABSC|DEFA|DECA)"
 Get-ChildItem -Path $regparent3 -ErrorAction SilentlyContinue |
